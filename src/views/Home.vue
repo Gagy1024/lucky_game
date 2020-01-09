@@ -3,7 +3,7 @@
 <Header />
 <div id="pokreni" class="button"><div class="outer"><div class="height"><div class="inner"><router-link id="router" to="/Pokreniigru">Pokreni igru</router-link></div></div></div></div>
 <div id="info"> 
-  <button type="button" class="btn btn-warning btn-lg" ><router-link id="router" to="/Info">Info</router-link></button>
+  <button type="button" class="btn btn-warning btn-lg" ><router-link id="router" to="/About">Info</router-link></button>
 </div>
   <router-view/>
   </div>
