@@ -29,7 +29,7 @@ export default {
 }
 #pokreni{
   display: inline-block;
-  margin-left: 65px;
+  margin-left: auto;
   margin-right: auto;
 }
 #router{
