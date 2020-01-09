@@ -2,9 +2,6 @@
 <div class="home">
 <Header />
 <div id="pokreni" class="button"><div class="outer"><div class="height"><div class="inner"><router-link id="router" to="/Pokreniigru">Pokreni igru</router-link></div></div></div></div>
-<div id="info"> 
-  <button type="button" class="btn btn-warning btn-lg" ><router-link id="router" to="/About">Info</router-link></button>
-</div>
   <router-view/>
   </div>
 </template>
@@ -38,18 +35,12 @@ export default {
 #router{
     color:#000000;
   font-weight: bold;
+  text-decoration: none;
 }
 #info{
   padding-right: -50px;
   display: inline-block;
   float: right;
-}
-#nav a {
-  font-weight: bold;
-  color: #000000;
-}
-#nav a.router-link-exact-active {
-  color: #000000;
 }
 body {
 	font-family: Impact;
@@ -148,26 +139,6 @@ body {
 	background: -webkit-linear-gradient(top, #ffbb00 0%,#ffbb00 100%); /* Chrome10+,Safari5.1+ */
 	background: linear-gradient(top, #ffbb00 0%,#ffbb00 100%); /* W3C */
 }
-.btn-warning{
-  color:#212529;
-  background-color:#ffc107;
-  border-color:#ffc107}
-.btn-warning:hover{
-  color:#212529;
-  background-color:#e0a800;
-  border-color:#d39e00}
-.btn-warning.focus,.btn-warning:focus{
-  color:#212529;
-  background-color:#e0a800;
-  border-color:#d39e00;
-  box-shadow:0 0 0 .2rem rgba(222,170,12,.5)}
-.btn-warning.disabled,.btn-warning:disabled{
-  color:#212529;
-  background-color:#ffc107;
-  border-color:#ffc107}
-.btn-warning:not(:disabled):not(.disabled).active,.btn-warning:not(:disabled):not(.disabled):active,.show>.btn-warning.dropdown-toggle{
-  color:#212529;
-  background-color:#d39e00;
-  border-color:#c69500}
+
 
 </style>
