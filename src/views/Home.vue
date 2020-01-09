@@ -1,7 +1,7 @@
 <template>
 <div class="home">
 <Header />
-<div id="pokreni" class="button"><div class="outer"><div class="height"><div class="inner"><router-link id="router" to="/Pokreniigru">Pokreni igru</router-link></div></div></div></div>
+<div id="pokreni" class="button"><div class="outer"><div class="height"><div class="inner"><router-link id="router" to="/Game">Pokreni igru</router-link></div></div></div></div>
   <router-view/>
   </div>
 </template>
