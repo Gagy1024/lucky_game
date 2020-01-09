@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-      <img src="../..assets/logo-patkica.png" />
+      <img src="../../assets/logo-patkica.png"/>
       <router-link to="/"><button>Početna</button></router-link>
       <router-link to="/about"><button>Info</button></router-link>
     </div>
