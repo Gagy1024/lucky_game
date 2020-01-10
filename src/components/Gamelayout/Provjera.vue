@@ -16,10 +16,8 @@
     <div id="tiket"><p id="broj">{{tiketKombinacije[3]}}</p></div>
     <div id="tiket"><p id="broj">{{tiketKombinacije[4]}}</p></div>
     <div id="tiket"><p id="broj">{{tiketKombinacije[5]}}</p></div>
-    <div id="tiket"><p id="broj">{{tiketKombinacije[6]}}</p></div>
-    <div id="tiket"><p id="broj">{{tiketKombinacije[7]}}</p></div>
     <div id="pogodci">
-    <div id="tiket"><p id="broj">{{pogodci[0]+','+[1]+','+[2]+','+[3]+','+[4]+','+[5]+','+[6]+','+[7]}}</p></div>
+    <div id="tiket"><p id="broj">{{pogodci[0]+','+[1]+','+[2]+','+[3]+','+[4]+','+[5]}}</p></div>
     </div>
 </template>
 
