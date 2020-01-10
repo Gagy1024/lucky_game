@@ -64,6 +64,7 @@ methods:{
                             --j;
                         }
                 }
+            this.$emit('stolic', this.izvuceno);
         }
 },
 mounted: function()

@@ -5,7 +5,7 @@
         <Provjera v-on:load="Provjera" />
       </div>
       <div v-else>
-        <Glkomb />
+        <Glkomb v-on:stolic="trollic"/>
       </div>
     </div>
     <div v-else>
@@ -34,6 +34,7 @@ export default {
       korKombinacije: [],
       prekidac: false,
       prekidac2: false,
+      glavna: [],
     }
   },
   created() {
@@ -49,6 +50,9 @@ export default {
     methods:{
     addKomb:function(newKomb){
       this.korKombinacije.push(newKomb);
+    },
+    trollic:function(izvuceno){
+      this.glavna.push(izvuceno);
     }
   }
 }
