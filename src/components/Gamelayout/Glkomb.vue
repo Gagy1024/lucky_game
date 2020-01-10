@@ -1,5 +1,5 @@
 <template>
-<div class="izvlacenje">
+<div class="glkomb">
     <p>{{broj}}</p><br>
     <p>{{konacniniz[0]}}</p>
     <p>{{konacniniz[1]}}</p>
