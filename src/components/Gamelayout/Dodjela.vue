@@ -17,7 +17,7 @@ export default {
       kreiraj: function(){
           this.komb=[];
           var br;
-          for(let i=0;i<8;i++){
+          for(let i=0;i<6;i++){
               br=(Math.floor(Math.random()*48)+1);
               if(!this.komb.includes(br)){
                 this.komb.push(br);
