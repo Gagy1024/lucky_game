@@ -1,17 +1,16 @@
 <template >
   <div id="game">
     <div v-if="prekidac">
-      <Glkomb />
+      <div v-if="prekidac2">
+        <Provjera v-on:load="Provjera" />
+      </div>
+      <div v-else>
+        <Glkomb />
+      </div>
     </div>
     <div v-else>
       <Dodjela v-on:add-komb="addKomb" />
       <Counter v-on:load="Counter" />
-    </div>
-    <div v-if="prekidac2">
-      <div/>
-    </div>
-    <div v-else>
-      <Provjera v-on:load="Provjera" />
     </div>
   </div>
 </template>
