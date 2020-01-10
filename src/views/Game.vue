@@ -7,6 +7,12 @@
       <Dodjela v-on:add-komb="addKomb" />
       <Counter v-on:load="Counter" />
     </div>
+    <div v-if="prekidac2">
+      <div/>
+    </div>
+    <div v-else>
+      <Provjera v-on:load="Provjera" />
+    </div>
   </div>
 </template>
 
@@ -14,6 +20,7 @@
 import Dodjela from './../components/Gamelayout/Dodjela.vue';
 import Counter from './../components/Counter.vue';
 import Glkomb from './../components/Gamelayout/Glkomb.vue';
+import Provjera from './../components/Gamelayout/Provjera.vue';
 
 export default {
   name: 'Game',
@@ -21,11 +28,13 @@ export default {
     Dodjela,
     Counter,
     Glkomb,
+    Provjera,
   },
   data: function() {
     return {
       korKombinacije: [],
       prekidac: false,
+      prekidac2: false,
     }
   },
   created() {
@@ -34,8 +43,11 @@ export default {
     setTimeout(function() {
       self.prekidac = !self.prekidac;
     }, 60000);
-  },
-  methods:{
+    setTimeout(function() {
+      self.prekidac2 = !self.prekidac2;
+    }, 104000);
+           },
+    methods:{
     addKomb:function(newKomb){
       this.korKombinacije.push(newKomb);
     }

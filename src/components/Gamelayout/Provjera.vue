@@ -8,7 +8,7 @@
     <div id="glavniniz"><p id="broj">{{glavnaKombinacija[5]}}</p></div>
     <div id="glavniniz"><p id="broj">{{glavnaKombinacija[6]}}</p></div>
     <div id="glavniniz"><p id="broj">{{glavnaKombinacija[7]}}</p></div>
-    <div id="tiketkombinacija">
+    <div id="tiketkombinacija"></div>
     <div id="sntiketa"><p id="broj">{{idtiketa}}</p></div>
     <div id="tiket"><p id="broj">{{tiketKombinacije[0]}}</p></div>
     <div id="tiket"><p id="broj">{{tiketKombinacije[1]}}</p></div>
@@ -19,17 +19,15 @@
     <div id="pogodci">
     <div id="tiket"><p id="broj">{{pogodci[0]+','+[1]+','+[2]+','+[3]+','+[4]+','+[5]}}</p></div>
     </div>
+    </div>
 </template>
 
 <script>
-import Dodjela from './../components/Gamelayout/Dodjela.vue';
-import Glkomb from './../components/Gamelayout/Glkomb.vue';
 
 export default {
-  name: 'Provjera',
+  name: '',
   components: {
-   Dodjela,
-   Glkomb,
+ 
   },
 data: function() {
     return {
