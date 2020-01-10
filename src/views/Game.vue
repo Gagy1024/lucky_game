@@ -39,7 +39,7 @@ export default {
   },
   created() {
     var self = this;
-    // Nakon 3 minute (180 sek) pokrenut će se funkcija getRezultat i promjeniti prekidac u false
+    // Nakon 3 minute (60 sek) pokrenut će se funkcija getRezultat i promjeniti prekidac u false
     setTimeout(function() {
       self.prekidac = !self.prekidac;
     }, 60000);
