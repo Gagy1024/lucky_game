@@ -31,7 +31,7 @@ export default {
   name: 'Provjera',
   components: {
    Dodjela,
-   Glkomb
+   Glkomb,
   },
 data: function() {
     return {
