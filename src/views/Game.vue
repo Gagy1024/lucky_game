@@ -1,8 +1,12 @@
-<template>
+<template >
   <div id="game">
-    <Glkomb v-if="prekidac" />
-    <Dodjela v-on:add-komb="addKomb" />
-    <counter v-on:load="Counter" />
+    <div v-if="prekidac">
+      <Glkomb />
+    </div>
+    <div v-else>
+      <Dodjela v-on:add-komb="addKomb" />
+      <Counter v-on:load="Counter" />
+    </div>
   </div>
 </template>
 
