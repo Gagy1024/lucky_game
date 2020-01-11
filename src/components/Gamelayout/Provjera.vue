@@ -32,7 +32,7 @@
 <script>
 
 export default {
-  name: 'Provjera',
+  name: '',
   components: {
  
  // props: ['komb', 'najvisePogodaka', 'konacniniz']
@@ -85,11 +85,3 @@ this.tiketKombinacije.forEach(function(x){
 */
  
 </script>
-<style>
-body {
-	font-family: Impact;
-  background-image: url('../assets/background.png');
-  background-size: 100%;
-}
-
-</style>
