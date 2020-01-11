@@ -37,13 +37,8 @@ export default {
   font-weight: bold;
   text-decoration: none;
 }
-#info{
-  padding-right: -50px;
-  display: inline-block;
-  float: right;
-}
 body {
-	font-family: Impact;
+  font-family: Impact;
   background-image: url('../assets/background.png');
   background-size: 100%;
 }
