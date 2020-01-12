@@ -72,7 +72,7 @@ export default {
       // Dodjeljujemo početne vrijednosti za 0 pogodaka, koje ćemo povećavati pri provjeri
       korNiz.forEach(function(){
         niz.push(0);
-      });
+      }),
 
       /* Za svaku korisničku kombinaciju provjeravat ćemo da li ima jednu od vrijednosti iz dobitne kombinacije
       Ukoliko ima povećavamo broj pogodaka u pomoćnom nizu broja sa indeksom tiketa kojeg provjeravamo */
@@ -84,7 +84,7 @@ export default {
         });
         if(niz[indeks] > max)
           max = niz[indeks];
-      });
+      }),
 
       this.najvisePogodaka = max;
 

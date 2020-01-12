@@ -15,7 +15,6 @@ export default {
   },
   methods:{
       kreiraj: function(){
-          this.komb=[];
           var br;
           for(let i=0;i<6;i++){
               br=(Math.floor(Math.random()*48)+1);
@@ -29,7 +28,7 @@ export default {
             kombinacija: this.komb,
         }
         if(this.komb.length == 6){
-                    this.komb = [];
+                    this.komb=[];
                     this.tiket++;
                     this.$emit('add-komb', newKomb);
                 }

@@ -14,7 +14,7 @@
 
         <div class="dobitak" v-bind:key="tiket.idtiketa" v-for="tiket in niz">
             <p>Broj tiketa: {{tiket.idtiketa}}</p>
-            <button class="broj" v-bind:key="'A' + broj" v-for="broj in tiket.komb">{{broj}}</button>
+            <button class="broj" v-bind:key="'A' + broj" v-for="broj in tiket.kombinacija">{{broj}}</button>
             <hr>
         </div>
     </div>
@@ -47,3 +47,7 @@ this.tiketKombinacije.forEach(function(x){
 */
  
 </script>
+
+<style scoped>
+
+</style>
