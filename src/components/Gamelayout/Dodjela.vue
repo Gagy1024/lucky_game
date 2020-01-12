@@ -28,8 +28,11 @@ export default {
             idtiketa: this.tiket,
             kombinacija: this.komb,
         }
-        this.tiket++;
-        this.$emit('add-komb', newKomb);
+        if(this.komb.length == 6){
+                    this.komb = [];
+                    this.tiket++;
+                    this.$emit('add-komb', newKomb);
+                }
       }
   }
 }

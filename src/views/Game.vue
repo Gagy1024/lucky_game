@@ -37,21 +37,27 @@ export default {
       glavna: [],
       najvisePogodaka: 0,
       pogodci: [],
+      zadnjiTiket: {},
+      tiketi: 0,
     }
   },
   created() {
     var self = this;
     // Nakon 3 minute (60 sek) pokrenut će se funkcija getRezultat i promjeniti prekidac u false
     setTimeout(function() {
+      self.getRezultat();
       self.prekidac = !self.prekidac;
     }, 60000);
     setTimeout(function() {
       self.prekidac2 = !self.prekidac2;
     }, 104000);
-           },
+},
+
     methods:{
     addKomb:function(newKomb){
       this.korKombinacije.push(newKomb);
+      this.zadnjiTiket = newKomb;
+      this.tiketi++;
     },
     trollic:function(izvuceno){
       this.glavna.push(izvuceno);
