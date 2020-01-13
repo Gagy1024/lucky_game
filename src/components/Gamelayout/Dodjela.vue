@@ -26,6 +26,7 @@ export default {
         var newKomb={
             idtiketa: this.tiket,
             kombinacija: this.komb,
+            broj: 0,
         }
         if(this.komb.length == 6){
                     this.komb=[];
