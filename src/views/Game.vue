@@ -70,7 +70,8 @@ export default {
     text-align: center;
   }
   #brojac{
-    margin-left:5%;
+    display: inline-block;
+    margin-left:-37%;
     margin-right:auto;
     margin-top: -120px;
   }
