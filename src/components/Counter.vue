@@ -1,6 +1,6 @@
 <template>
     <div class="counter">
-        <p>{{startTajmer}}</p>
+        <div id="krug"><p id="krugtekst">{{startTajmer}}</p></div>
         <router-view />
     </div>
 </template>
@@ -32,3 +32,20 @@ export default {
         }
 }
 </script>
+<style>
+#krug
+    {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background-color: orange;
+        text-align: center;
+        font-size: 150px;
+        margin-left: 37vw;
+    }
+#krugtekst
+    {
+        padding: 60px;
+        color: black;
+    }
+</style>
