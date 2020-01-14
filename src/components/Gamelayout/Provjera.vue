@@ -3,15 +3,16 @@
     <Header />
     <div id="komb">
             <p>Kombinacija igre je:</p>
+            
+            <p>{{testni}}</p>
             <hr>
         </div>
-    <div id="kombinacije">
       
-      </div>
-      <p>{{user}}</p>
-      <p>{{testni}}</p>
-      <p>{{broj}}</p>
-    </div>
+      <div class="dobitak" v-bind:key="tiket" v-for="tiket in user">
+            <p>{{tiket}}</p>
+            <hr>
+        </div>
+        </div>
 </template>
 
 <script>
