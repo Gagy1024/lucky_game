@@ -155,5 +155,25 @@ body {
 #broj2{
     margin-top: 45px;
     }
-
+#glavnibroj{
+    margin-top: 70px;
+	}
+#glavnaloptica{
+	font-size: 140px;
+	text-decoration-color: aliceblue;
+    font-style: bold;
+	display: inline-block;
+	align-content: center;
+	background-image: url('../assets/glavnaloptica.png');
+	animation: grow 5s ease infinite;
+    width: 300px; height: 300px;
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 </style>

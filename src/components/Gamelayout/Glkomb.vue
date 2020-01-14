@@ -1,7 +1,7 @@
 <template>
 <div class="glkomb">
-    <p>{{broj}}</p><br>
-
+    <div id="glavnaloptica"><p id="glavnibroj">{{broj}}</p></div><br>
+    
     <div id="loptice"><p id="broj2">{{konacniniz[0]}}</p></div>
     <div id="loptice"><p id="broj2">{{konacniniz[1]}}</p></div>
     <div id="loptice"><p id="broj2">{{konacniniz[2]}}</p></div>
