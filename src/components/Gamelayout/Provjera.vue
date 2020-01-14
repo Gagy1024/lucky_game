@@ -9,7 +9,9 @@
         </div>
       
       <div class="dobitak" v-bind:key="tiket" v-for="tiket in user">
-            <p>{{tiket}}</p>
+            <p>Id tiketa: {{tiket.idtiketa}}</p>
+            <p>Kombinacija: {{tiket.kombinacija}}</p>
+            <p>Broj pogodaka: {{tiket.broj}}</p>
             <hr>
         </div>
         </div>
