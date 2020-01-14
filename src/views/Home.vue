@@ -139,6 +139,21 @@ body {
 	background: -webkit-linear-gradient(top, #ffbb00 0%,#ffbb00 100%); /* Chrome10+,Safari5.1+ */
 	background: linear-gradient(top, #ffbb00 0%,#ffbb00 100%); /* W3C */
 }
-
+#loptice{
+    height: 150px;
+    width: 150px;
+    background-image: url('../assets/lopticaaa.png');
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    align-content: center;
+    vertical-align: bottom;
+    }
+#broj2{
+    margin-top: 45px;
+    }
 
 </style>

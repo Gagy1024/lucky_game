@@ -1,14 +1,16 @@
 <template>
 <div class="glkomb">
     <p>{{broj}}</p><br>
-    <p>{{konacniniz[0]}}</p>
-    <p>{{konacniniz[1]}}</p>
-    <p>{{konacniniz[2]}}</p>
-    <p>{{konacniniz[3]}}</p>
-    <p>{{konacniniz[4]}}</p>
-    <p>{{konacniniz[5]}}</p>
-    <p>{{konacniniz[6]}}</p>
-    <p>{{konacniniz[7]}}</p>
+
+    <div id="loptice"><p id="broj2">{{konacniniz[0]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[1]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[2]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[3]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[4]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[5]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[6]}}</p></div>
+    <div id="loptice"><p id="broj2">{{konacniniz[7]}}</p></div>
+
   </div>
 </template>
 
@@ -78,5 +80,7 @@ mounted: function()
 </script>
 
 <style>
+
+
 
 </style>
