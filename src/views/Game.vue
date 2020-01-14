@@ -9,8 +9,12 @@
       </div>
     </div>
     <div v-else>
-      <Dodjela v-on:add-komb="addKomb" />
+      <div id="brojac">
       <Counter v-on:load="Counter" />
+      </div>
+      <div id="dodaj">
+      <Dodjela v-on:add-komb="addKomb" />
+      </div>
     </div>
   </div>
 </template>
@@ -62,4 +66,16 @@ export default {
 </script>
 
 <style>
+  #game{
+    text-align: center;
+  }
+  #brojac{
+    margin-left:5%;
+    margin-right:auto;
+    margin-top: -120px;
+  }
+
+  #dodaj{
+    margin-top:40px;
+  }
 </style>
