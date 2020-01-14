@@ -24,20 +24,20 @@ export default {
         align-content: center;
     }
     .header button {
+        margin-left: 120%;
         padding: 1vh;
         border: none; border-radius: 1vh;
-        background-color: rgb(230, 154, 13);
+        background-color: #FFA500;
         font-weight: bold;
         font-size: 3vh
     }
 
     .header button:hover {
-        background: darkgray;
+        background: #FF7D03;
     }
-
     .header img {
         height: 6vh;
-        margin: 0;
+        margin-left: 200%;
     }
 
     @media only screen and (max-width: 600px){
