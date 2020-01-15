@@ -3,9 +3,11 @@
     <Header />
     <div id="tekst">
       <p>
-      Nesto o aplikaciji....<br/>
-      Pravila:<br/>...pravila??...<br/>
-      WebApp "Lucky Game" jer razvijena od strane Dragana Todorovica, Nenada Sarovica i Nikole Ristica
+      LUCKY GAME<br/>
+      Devloped by: <br/>
+      <b>Dragan Todorovic</b><br/>
+      <b>Nenad Sarovic</b><br/>
+      <b>Nikola Ristic</b><br/>
       </p>
     </div>
     <!--
