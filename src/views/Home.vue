@@ -151,6 +151,7 @@ body {
     font-style: bold;
     align-content: center;
     vertical-align: bottom;
+	animation: pulse 1s infinite ease-in-out alternate;
     }
 #broj2{
     margin-top: 45px;
@@ -175,5 +176,9 @@ body {
   to {
     transform: scale(1);
   }
+}
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
 }
 </style>
