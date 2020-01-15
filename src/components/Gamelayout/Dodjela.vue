@@ -29,12 +29,59 @@ export default {
             broj: 0,
         }
         if(this.komb.length == 6){
+                    this.printMe(newKomb);
                     this.komb=[];
                     this.tiket++;
                     this.$emit('add-komb', newKomb);
-                }
+                }},
+        printMe(obj) {
+            const WinPrint = window.open('', '', 'left=0,top=0,width=345,height=545,toolbar=0,scrollbars=0,status=0');
+
+            WinPrint.document.write(`
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Document</title>
+                    <style>
+                        .container {text-align: center; height: 300px; width: 300px; border: 1px solid black;}
+                        .container ul {list-style: none;}
+                        #tiket {font-size: 24px; font-style: italic;}
+                        span {font-weight: bold;}
+                        .brojevi p {
+                            width: 20px;
+                            margin: 5px auto;
+                            font-size: 16px;
+                            border: 1px solid black;
+                            border-radius: 10px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <p id="tiket">Tiket: <span>#${obj.idtiketa}</span></p>
+                        <hr>
+                        <div class="brojevi">
+                            <p>${obj.kombinacija[0]}</p>
+                            <p>${obj.kombinacija[1]}</p>
+                            <p>${obj.kombinacija[2]}</p>
+                            <p>${obj.kombinacija[3]}</p>
+                            <p>${obj.kombinacija[4]}</p>
+                            <p>${obj.kombinacija[5]}</p>
+                        </div>
+                        <hr>
+                        <p>Lucky Game T4</p>
+                    </div>
+                </body>
+                </html>
+            `);
+
+            WinPrint.document.close();
+            WinPrint.focus();
+        }
       }
-  }
 }
 </script>
 
