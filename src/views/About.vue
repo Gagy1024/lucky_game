@@ -9,6 +9,7 @@
       <b>Nenad Sarovic</b><br/>
       <b>Nikola Ristic</b><br/>
       </p>
+      <p>Project for SPARK Workshop, Maglaj - 2019/2020</p>
     </div>
   </div>
 </template>
