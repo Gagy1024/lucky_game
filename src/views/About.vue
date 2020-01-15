@@ -10,10 +10,6 @@
       <b>Nikola Ristic</b><br/>
       </p>
     </div>
-    <!--
-      RECI AKO HOCES NESTO IZMENJENO!
-      HVALA :D
-      -->
   </div>
 </template>
 
